@@ -6,9 +6,15 @@ if( cgi.REQUEST_METHOD == 'POST' )
 </cfscript>
 
 <form action="/" method="POST">
-<input type="text" name="tag" value="yellow">
-<input type="text" name="tag" value="green">
-<input type="text" name="name" value="Form Testing">
+  <input type="text" name="name" value="Timmy">
+<input type="text" name="tag" value=""><br><br>
+<input type="text" name="name" value="Tara">
+<input type="text" name="tag" value=""><br><br>
+<input type="text" name="name" value="Tommy">
+<input type="text" name="tag" value=""><br><br>
+<input type="text" name="name" value="Tina">
+<input type="text" name="tag" value=""><br><br>
+<input type="text" name="otherthing" value="doesnt matter">
 <input type="submit">
 
 </form>
